@@ -1,6 +1,15 @@
 # Docklens
 Container/Docker image vulnerability scanner
 
+A Python CLI tool that:
+- Takes a Docker image
+- Analyses the installed packages
+- Compares them with a CVE database
+- Classifies vulnerabilities by severity
+- Suggests patches/upgrades
+- Displays everything in a clean terminal menu
+
+
 ## License
 
 This project is licensed under a Non-Commercial license.
