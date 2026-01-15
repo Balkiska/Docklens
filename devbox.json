@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "python3@3.12",
+    "git@latest",
+    "curl@latest",
+    "jq@latest",
+    "ripgrep@latest",
+    "sqlite@latest",
+    "kubectl@latest",
+    "kubernetes-helm@latest"
+  ],
+  "env": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUNBUFFERED": "1",
+    "PIP_DISABLE_PIP_VERSION_CHECK": "1"
+  },
+  "shell": {
+    "init_hook": [
+      "echo '🐳 DockLens devbox ready'",
+      "python --version"
+    ]
+  }
+}

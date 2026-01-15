@@ -9,6 +9,15 @@ A Python CLI tool that:
 - Suggests patches/upgrades
 - Displays everything in a clean terminal menu
 
+# Environnement
+install devbox
+```
+curl -fsSL https://get.jetify.com/devbox | bash
+```
+run devbox
+```
+devbox shell
+```
 
 ## License
 
