@@ -8,7 +8,9 @@
     "ripgrep@latest",
     "sqlite@latest",
     "kubectl@latest",
-    "kubernetes-helm@latest"
+    "kubernetes-helm@latest",
+    "pre-commit@4.5.1",
+    "python310Packages.mypy"
   ],
   "env": {
     "PYTHONDONTWRITEBYTECODE": "1",

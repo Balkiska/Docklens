@@ -19,6 +19,23 @@ run devbox
 devbox shell
 ```
 
+# Pre-commit Hooks
+With every new commit, verification hooks will be executed. To bypass them, run the following command: 
+```
+git commit -m "what my commit does blablabla" --no-verify
+```
+### Pre-commit tools
+**black**: code auto-formatting
+-> https://github.com/psf/black
+
+**isort**: automatic sorting of imports
+-> https://pycqa.github.io/isort/index.html
+
+**ruff**: error detection
+-> https://docs.astral.sh/ruff/
+
+**mypy**: type checking
+
 ## License
 
 This project is licensed under a Non-Commercial license.
